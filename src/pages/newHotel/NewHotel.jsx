@@ -45,7 +45,7 @@ const NewHotel = () => {
 
       setTimeout(() => {
         window.location.reload();
-      }, 1000);
+      }, 300);
     } catch (err) {
       console.log(err);
     }
